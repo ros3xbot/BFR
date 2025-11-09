@@ -193,7 +193,7 @@ rule-providers:
     type: http
     behavior: classical
     path: "./provide/rule_provider/adblock.yaml"
-    url: https://raw.githubusercontent.com/ros3xbot/BFR/refs/heads/main/adblock.yaml
+    url: https://raw.githubusercontent.com/ros3xbot/BFR/refs/heads/main/rule/adblock.yaml
     interval: 28800
 
   "oisd_big":
