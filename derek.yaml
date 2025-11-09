@@ -95,7 +95,7 @@ proxy-groups:
 proxy-providers:
   "provider-id":
     type: http
-    url: "https://raw.githubusercontent.com/ros3xbot/BFR/refs/heads/main/provid/profiles_id.txt"
+    url: "https://raw.githubusercontent.com/ros3xbot/BFR/refs/heads/main/rule/provid/profiles_id.txt"
     path: ./provide/provider-id.yaml
     interval: 10800
     health-check:
@@ -105,7 +105,7 @@ proxy-providers:
 
   "provider-my":
     type: http
-    url: "https://raw.githubusercontent.com/ros3xbot/BFR/refs/heads/main/provid/profiles_my.txt"
+    url: "https://raw.githubusercontent.com/ros3xbot/BFR/refs/heads/main/rule/provid/profiles_my.txt"
     path: ./provide/provider-my.yaml
     interval: 10800
     health-check:
@@ -115,7 +115,7 @@ proxy-providers:
 
   "provider-sg":
     type: http
-    url: "https://raw.githubusercontent.com/ros3xbot/BFR/refs/heads/main/provid/profiles_sg.txt"
+    url: "https://raw.githubusercontent.com/ros3xbot/BFR/refs/heads/main/rule/provid/profiles_sg.txt"
     path: ./provide/provider-sg.yaml
     interval: 10800
     health-check:
@@ -125,7 +125,7 @@ proxy-providers:
 
   "provider-th":
     type: http
-    url: "https://raw.githubusercontent.com/ros3xbot/BFR/refs/heads/main/provid/profiles_th.txt"
+    url: "https://raw.githubusercontent.com/ros3xbot/BFR/refs/heads/main/rule/provid/profiles_th.txt"
     path: ./provide/provider-th.yaml
     interval: 10800
     health-check:
@@ -135,7 +135,7 @@ proxy-providers:
 
   "provider-jp":
     type: http
-    url: "https://raw.githubusercontent.com/ros3xbot/BFR/refs/heads/main/provid/profiles_jp.txt"
+    url: "https://raw.githubusercontent.com/ros3xbot/BFR/refs/heads/main/rule/provid/profiles_jp.txt"
     path: ./provide/provider-jp.yaml
     interval: 10800
     health-check:
@@ -145,7 +145,7 @@ proxy-providers:
 
   "provider-kr":
     type: http
-    url: "https://raw.githubusercontent.com/ros3xbot/BFR/refs/heads/main/provid/profiles_kr.txt"
+    url: "https://raw.githubusercontent.com/ros3xbot/BFR/refs/heads/main/rule/provid/profiles_kr.txt"
     path: ./provide/provider-kr.yaml
     interval: 10800
     health-check:
@@ -155,7 +155,7 @@ proxy-providers:
 
   "provider-in":
     type: http
-    url: "https://raw.githubusercontent.com/ros3xbot/BFR/refs/heads/main/provid/profiles_in.txt"
+    url: "https://raw.githubusercontent.com/ros3xbot/BFR/refs/heads/main/rule/provid/profiles_in.txt"
     path: ./provide/provider-in.yaml
     interval: 10800
     health-check:
@@ -165,7 +165,7 @@ proxy-providers:
 
   "provider-us":
     type: http
-    url: "https://raw.githubusercontent.com/ros3xbot/BFR/refs/heads/main/provid/profiles_us.txt"
+    url: "https://raw.githubusercontent.com/ros3xbot/BFR/refs/heads/main/rule/provid/profiles_us.txt"
     path: ./provide/provider-us.yaml
     interval: 10800
     health-check:
