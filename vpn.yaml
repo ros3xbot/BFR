@@ -7,6 +7,7 @@ proxy-groups:
       - "Malaysia"
       - "Singapore"
       - "Thailand"
+      - "Vietnam"
       - "Japan"
       - "Korea"
       - "India"
@@ -50,6 +51,15 @@ proxy-groups:
     type: url-test
     use:
       - "provider-th"
+    health-check:
+      enable: true
+      url: http://www.gstatic.com/generate_204
+      interval: 120
+
+  - name: "Vietnam"
+    type: url-test
+    use:
+      - "provider-vn"
     health-check:
       enable: true
       url: http://www.gstatic.com/generate_204
@@ -127,6 +137,16 @@ proxy-providers:
     type: http
     url: "https://raw.githubusercontent.com/ros3xbot/BFR/refs/heads/main/rule/provid/profiles_th.txt"
     path: ./provide/provider-th.yaml
+    interval: 10800
+    health-check:
+      enable: true
+      url: http://www.gstatic.com/generate_204
+      interval: 120
+
+  "provider-vn":
+    type: http
+    url: "https://raw.githubusercontent.com/ros3xbot/BFR/refs/heads/main/rule/provid/profiles_vn.txt"
+    path: ./provide/provider-vn.yaml
     interval: 10800
     health-check:
       enable: true
