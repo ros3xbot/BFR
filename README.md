@@ -26,6 +26,7 @@ Setiap negara memiliki provider proxy yang diambil dari GitHub dan diperbarui se
 - 🇲🇾 `provider-my`: Malaysia
 - 🇸🇬 `provider-sg`: Singapore
 - 🇹🇭 `provider-th`: Thailand
+- vn `provider-vn`: Vietnam
 - 🇯🇵 `provider-jp`: Japan
 - 🇰🇷 `provider-kr`: Korea
 - 🇮🇳 `provider-in`: India
