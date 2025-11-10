@@ -89,7 +89,9 @@ dns:
 #   'ota-cache1.googlezip.net': 127.0.0.1
 #   'ota-cache2.googlezip.net': 127.0.0.1
 
-proxies:
+# ==========================
+# 🧱 Proxy Groups
+# ==========================
 proxy-groups:
   - name: "DratVPN"
     type: select
@@ -114,85 +116,87 @@ proxy-groups:
   - name: "Indonesia"
     type: url-test
     use:
-      - "provider-id"
+      - provider-id
     health-check:
       enable: true
-      url: http://www.gstatic.com/generate_204
+      url: "http://www.gstatic.com/generate_204"
       interval: 120
 
   - name: "Malaysia"
     type: url-test
     use:
-      - "provider-my"
+      - provider-my
     health-check:
       enable: true
-      url: http://www.gstatic.com/generate_204
+      url: "http://www.gstatic.com/generate_204"
       interval: 120
 
   - name: "Singapore"
     type: url-test
     use:
-      - "provider-sg"
+      - provider-sg
     health-check:
       enable: true
-      url: http://www.gstatic.com/generate_204
+      url: "http://www.gstatic.com/generate_204"
       interval: 120
 
   - name: "Thailand"
     type: url-test
     use:
-      - "provider-th"
+      - provider-th
     health-check:
       enable: true
-      url: http://www.gstatic.com/generate_204
+      url: "http://www.gstatic.com/generate_204"
       interval: 120
 
   - name: "Vietnam"
     type: url-test
     use:
-      - "provider-vn"
+      - provider-vn
     health-check:
       enable: true
-      url: http://www.gstatic.com/generate_204
+      url: "http://www.gstatic.com/generate_204"
       interval: 120
 
   - name: "Japan"
     type: url-test
     use:
-      - "provider-jp"
+      - provider-jp
     health-check:
       enable: true
-      url: http://www.gstatic.com/generate_204
+      url: "http://www.gstatic.com/generate_204"
       interval: 120
 
   - name: "Korea"
     type: url-test
     use:
-      - "provider-kr"
+      - provider-kr
     health-check:
       enable: true
-      url: http://www.gstatic.com/generate_204
+      url: "http://www.gstatic.com/generate_204"
       interval: 120
 
   - name: "India"
     type: url-test
     use:
-      - "provider-in"
+      - provider-in
     health-check:
       enable: true
-      url: http://www.gstatic.com/generate_204
+      url: "http://www.gstatic.com/generate_204"
       interval: 120
 
   - name: "Amerika"
     type: url-test
     use:
-      - "provider-us"
+      - provider-us
     health-check:
       enable: true
-      url: http://www.gstatic.com/generate_204
+      url: "http://www.gstatic.com/generate_204"
       interval: 120
 
-
+# ==========================
+# 📦 Proxy Providers
+# ==========================
 proxy-providers:
   provider-id:
     type: http
@@ -284,6 +288,9 @@ proxy-providers:
       url: "http://www.gstatic.com/generate_204"
       interval: 120
 
+# ==========================
+# 📜 Rule Providers
+# ==========================
 rule-providers:
   adblock:
     type: http
@@ -299,6 +306,9 @@ rule-providers:
     url: "https://raw.githubusercontent.com/hillz2/openclash_adblock/main/oisd_big.yaml"
     interval: 28800
 
+# ==========================
+# 📘 Rules
+# ==========================
 rules:
   - RULE-SET,adblock,ADS
   - RULE-SET,oisd_big,ADS
