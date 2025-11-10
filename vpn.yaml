@@ -1,105 +1,96 @@
 proxies:
-  proxy-groups:
-    - name: "DratVPN"
-      type: select
-      proxies:
-        - "Indonesia"
-        - "Malaysia"
-        - "Singapore"
-        - "Thailand"
-        - "Vietnam"
-        - "Japan"
-        - "Korea"
-        - "India"
-        - "Amerika"
-        - "DIRECT"
+proxy-groups:
+  - name: "DratVPN"
+    type: select
+    proxies:
+      - "Indonesia"
+      - "Malaysia"
+      - "Singapore"
+      - "Thailand"
+      - "Japan"
+      - "Korea"
+      - "India"
+      - "Amerika"
+      - "DIRECT"
 
-    - name: "ADS"
-      type: select
-      proxies:
-        - "DratVPN"
-        - "REJECT"
+  - name: "ADS"
+    type: select
+    proxies:
+      - "DratVPN"
+      - "REJECT"
 
-    - name: "Indonesia"
-      type: url-test
-      use:
-        - provider-id
-      health-check:
-        enable: true
-        url: "http://www.gstatic.com/generate_204"
-        interval: 120
+  - name: "Indonesia"
+    type: url-test
+    use:
+      - "provider-id"
+    health-check:
+      enable: true
+      url: http://www.gstatic.com/generate_204
+      interval: 120
 
-    - name: "Malaysia"
-      type: url-test
-      use:
-        - provider-my
-      health-check:
-        enable: true
-        url: "http://www.gstatic.com/generate_204"
-        interval: 120
+  - name: "Malaysia"
+    type: url-test
+    use:
+      - "provider-my"
+    health-check:
+      enable: true
+      url: http://www.gstatic.com/generate_204
+      interval: 120
 
-    - name: "Singapore"
-      type: url-test
-      use:
-        - provider-sg
-      health-check:
-        enable: true
-        url: "http://www.gstatic.com/generate_204"
-        interval: 120
+  - name: "Singapore"
+    type: url-test
+    use:
+      - "provider-sg"
+    health-check:
+      enable: true
+      url: http://www.gstatic.com/generate_204
+      interval: 120
 
-    - name: "Thailand"
-      type: url-test
-      use:
-        - provider-th
-      health-check:
-        enable: true
-        url: "http://www.gstatic.com/generate_204"
-        interval: 120
+  - name: "Thailand"
+    type: url-test
+    use:
+      - "provider-th"
+    health-check:
+      enable: true
+      url: http://www.gstatic.com/generate_204
+      interval: 120
 
-    - name: "Vietnam"
-      type: url-test
-      use:
-        - provider-vn
-      health-check:
-        enable: true
-        url: "http://www.gstatic.com/generate_204"
-        interval: 120
+  - name: "Japan"
+    type: url-test
+    use:
+      - "provider-jp"
+    health-check:
+      enable: true
+      url: http://www.gstatic.com/generate_204
+      interval: 120
 
-    - name: "Japan"
-      type: url-test
-      use:
-        - provider-jp
-      health-check:
-        enable: true
-        url: "http://www.gstatic.com/generate_204"
-        interval: 120
+  - name: "Korea"
+    type: url-test
+    use:
+      - "provider-kr"
+    health-check:
+      enable: true
+      url: http://www.gstatic.com/generate_204
+      interval: 120
 
-    - name: "Korea"
-      type: url-test
-      use:
-        - provider-kr
-      health-check:
-        enable: true
-        url: "http://www.gstatic.com/generate_204"
-        interval: 120
+  - name: "India"
+    type: url-test
+    use:
+      - "provider-in"
+    health-check:
+      enable: true
+      url: http://www.gstatic.com/generate_204
+      interval: 120
 
-    - name: "India"
-      type: url-test
-      use:
-        - provider-in
-      health-check:
-        enable: true
-        url: "http://www.gstatic.com/generate_204"
-        interval: 120
+  - name: "Amerika"
+    type: url-test
+    use:
+      - "provider-us"
+    health-check:
+      enable: true
+      url: http://www.gstatic.com/generate_204
+      interval: 120
 
-    - name: "Amerika"
-      type: url-test
-      use:
-        - provider-us
-      health-check:
-        enable: true
-        url: "http://www.gstatic.com/generate_204"
-        interval: 120
 
 proxy-providers:
   provider-id:
