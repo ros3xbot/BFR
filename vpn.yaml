@@ -101,111 +101,111 @@ proxies:
         url: "http://www.gstatic.com/generate_204"
         interval: 120
 
-  proxy-providers:
-    provider-id:
-      type: http
-      url: "https://raw.githubusercontent.com/ros3xbot/BFR/refs/heads/main/rule/provid/profiles_id.txt"
-      path: "./provide/provider-id.yaml"
-      interval: 10800
-      health-check:
-        enable: true
-        url: "http://www.gstatic.com/generate_204"
-        interval: 120
+proxy-providers:
+  provider-id:
+    type: http
+    url: "https://raw.githubusercontent.com/ros3xbot/BFR/refs/heads/main/rule/provid/profiles_id.txt"
+    path: "./provide/provider-id.yaml"
+    interval: 10800
+    health-check:
+      enable: true
+      url: "http://www.gstatic.com/generate_204"
+      interval: 120
 
-    provider-my:
-      type: http
-      url: "https://raw.githubusercontent.com/ros3xbot/BFR/refs/heads/main/rule/provid/profiles_my.txt"
-      path: "./provide/provider-my.yaml"
-      interval: 10800
-      health-check:
-        enable: true
-        url: "http://www.gstatic.com/generate_204"
-        interval: 120
+  provider-my:
+    type: http
+    url: "https://raw.githubusercontent.com/ros3xbot/BFR/refs/heads/main/rule/provid/profiles_my.txt"
+    path: "./provide/provider-my.yaml"
+    interval: 10800
+    health-check:
+      enable: true
+      url: "http://www.gstatic.com/generate_204"
+      interval: 120
 
-    provider-sg:
-      type: http
-      url: "https://raw.githubusercontent.com/ros3xbot/BFR/refs/heads/main/rule/provid/profiles_sg.txt"
-      path: "./provide/provider-sg.yaml"
-      interval: 10800
-      health-check:
-        enable: true
-        url: "http://www.gstatic.com/generate_204"
-        interval: 120
+  provider-sg:
+    type: http
+    url: "https://raw.githubusercontent.com/ros3xbot/BFR/refs/heads/main/rule/provid/profiles_sg.txt"
+    path: "./provide/provider-sg.yaml"
+    interval: 10800
+    health-check:
+      enable: true
+      url: "http://www.gstatic.com/generate_204"
+      interval: 120
 
-    provider-th:
-      type: http
-      url: "https://raw.githubusercontent.com/ros3xbot/BFR/refs/heads/main/rule/provid/profiles_th.txt"
-      path: "./provide/provider-th.yaml"
-      interval: 10800
-      health-check:
-        enable: true
-        url: "http://www.gstatic.com/generate_204"
-        interval: 120
+  provider-th:
+    type: http
+    url: "https://raw.githubusercontent.com/ros3xbot/BFR/refs/heads/main/rule/provid/profiles_th.txt"
+    path: "./provide/provider-th.yaml"
+    interval: 10800
+    health-check:
+      enable: true
+      url: "http://www.gstatic.com/generate_204"
+      interval: 120
 
-    provider-vn:
-      type: http
-      url: "https://raw.githubusercontent.com/ros3xbot/BFR/refs/heads/main/rule/provid/profiles_vn.txt"
-      path: "./provide/provider-vn.yaml"
-      interval: 10800
-      health-check:
-        enable: true
-        url: "http://www.gstatic.com/generate_204"
-        interval: 120
+  provider-vn:
+    type: http
+    url: "https://raw.githubusercontent.com/ros3xbot/BFR/refs/heads/main/rule/provid/profiles_vn.txt"
+    path: "./provide/provider-vn.yaml"
+    interval: 10800
+    health-check:
+      enable: true
+      url: "http://www.gstatic.com/generate_204"
+      interval: 120
 
-    provider-jp:
-      type: http
-      url: "https://raw.githubusercontent.com/ros3xbot/BFR/refs/heads/main/rule/provid/profiles_jp.txt"
-      path: "./provide/provider-jp.yaml"
-      interval: 10800
-      health-check:
-        enable: true
-        url: "http://www.gstatic.com/generate_204"
-        interval: 120
+  provider-jp:
+    type: http
+    url: "https://raw.githubusercontent.com/ros3xbot/BFR/refs/heads/main/rule/provid/profiles_jp.txt"
+    path: "./provide/provider-jp.yaml"
+    interval: 10800
+    health-check:
+      enable: true
+      url: "http://www.gstatic.com/generate_204"
+      interval: 120
 
-    provider-kr:
-      type: http
-      url: "https://raw.githubusercontent.com/ros3xbot/BFR/refs/heads/main/rule/provid/profiles_kr.txt"
-      path: "./provide/provider-kr.yaml"
-      interval: 10800
-      health-check:
-        enable: true
-        url: "http://www.gstatic.com/generate_204"
-        interval: 120
+  provider-kr:
+    type: http
+    url: "https://raw.githubusercontent.com/ros3xbot/BFR/refs/heads/main/rule/provid/profiles_kr.txt"
+    path: "./provide/provider-kr.yaml"
+    interval: 10800
+    health-check:
+      enable: true
+      url: "http://www.gstatic.com/generate_204"
+      interval: 120
 
-    provider-in:
-      type: http
-      url: "https://raw.githubusercontent.com/ros3xbot/BFR/refs/heads/main/rule/provid/profiles_in.txt"
-      path: "./provide/provider-in.yaml"
-      interval: 10800
-      health-check:
-        enable: true
-        url: "http://www.gstatic.com/generate_204"
-        interval: 120
+  provider-in:
+    type: http
+    url: "https://raw.githubusercontent.com/ros3xbot/BFR/refs/heads/main/rule/provid/profiles_in.txt"
+    path: "./provide/provider-in.yaml"
+    interval: 10800
+    health-check:
+      enable: true
+      url: "http://www.gstatic.com/generate_204"
+      interval: 120
 
-    provider-us:
-      type: http
-      url: "https://raw.githubusercontent.com/ros3xbot/BFR/refs/heads/main/rule/provid/profiles_us.txt"
-      path: "./provide/provider-us.yaml"
-      interval: 10800
-      health-check:
-        enable: true
-        url: "http://www.gstatic.com/generate_204"
-        interval: 120
+  provider-us:
+    type: http
+    url: "https://raw.githubusercontent.com/ros3xbot/BFR/refs/heads/main/rule/provid/profiles_us.txt"
+    path: "./provide/provider-us.yaml"
+    interval: 10800
+    health-check:
+      enable: true
+      url: "http://www.gstatic.com/generate_204"
+      interval: 120
 
-  rule-providers:
-    adblock:
-      type: http
-      behavior: classical
-      path: "./provide/rule_provider/adblock.yaml"
-      url: "https://raw.githubusercontent.com/ros3xbot/BFR/refs/heads/main/rule/adblock.yaml"
-      interval: 28800
+rule-providers:
+  adblock:
+    type: http
+    behavior: classical
+    path: "./provide/rule_provider/adblock.yaml"
+    url: "https://raw.githubusercontent.com/ros3xbot/BFR/refs/heads/main/rule/adblock.yaml"
+    interval: 28800
 
-    oisd_big:
-      type: http
-      behavior: classical
-      path: "./provide/rule_provider/oisd_big.yaml"
-      url: "https://raw.githubusercontent.com/hillz2/openclash_adblock/main/oisd_big.yaml"
-      interval: 28800
+  oisd_big:
+    type: http
+    behavior: classical
+    path: "./provide/rule_provider/oisd_big.yaml"
+    url: "https://raw.githubusercontent.com/hillz2/openclash_adblock/main/oisd_big.yaml"
+    interval: 28800
 
 rules:
   - RULE-SET,adblock,ADS
