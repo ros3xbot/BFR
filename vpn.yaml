@@ -97,6 +97,7 @@ proxy-groups:
     type: select
     proxies:
       - "DIRECT"
+      - "Inject"
       - "Indonesia"
       - "Malaysia"
       - "Singapore"
@@ -112,6 +113,15 @@ proxy-groups:
     proxies:
       - "REJECT"
       - "DratVPN"
+
+  - name: "Inject"
+    type: select
+    use:
+      - inject
+    health-check:
+      enable: true
+      url: "http://www.gstatic.com/generate_204"
+      interval: 120
 
   - name: "Indonesia"
     type: url-test
@@ -198,6 +208,16 @@ proxy-groups:
 # 📦 Proxy Providers
 # ==========================
 proxy-providers:
+  inject:
+    type: http
+    url: "https://raw.githubusercontent.com/ros3xbot/BFR/refs/heads/main/rule/provid/inject.txt"
+    path: "./provide/inject.yaml"
+    interval: 10800
+    health-check:
+      enable: true
+      url: "http://www.gstatic.com/generate_204"
+      interval: 120
+
   provider-id:
     type: http
     url: "https://raw.githubusercontent.com/ros3xbot/BFR/refs/heads/main/rule/provid/profiles_id.txt"
