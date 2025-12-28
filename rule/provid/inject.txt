@@ -1,1 +1,1 @@
-vless://e7424603-683d-481e-a6d3-d5abdc250d75@api24-normal-alisg.tiktokv.com:443?path=%2Fvless&security=tls&encryption=none&host=api24-normal-alisg.tiktokv.com.sg2.bumiayuvpn.web.id&type=ws&sni=api24-normal-alisg.tiktokv.com.sg2.bumiayuvpn.web.id#Tiktok%2020%2F12
+vless://96d73285-54be-49d9-92e1-5c258f2fe583@api24-normal.tiktokv.com:443?path=%2FALL1&security=tls&encryption=none&host=masib.dedenglieur.workers.dev&type=ws&sni=masib.dedenglieur.workers.dev#ALL-life-time
